@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>survey-form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Thank you for taking your time to help us   improve</p>
+    </div>
+    <form id="survey-form">
+      <fieldset>
+        <label id= "name-label" for="name">Name: <input id="name" type="text" placeholder="Enter Name" required></label>
+
+        <label id="email-label" for="email">Email: <input id="email" type="email" placeholder="Enter email" required></label>
+
+        <label id="number-label" for="number">Age: <input id="number" type="number" placeholder="18" min="13" max="120"></label>
+      </fieldset><br>
+      <fieldset>
+        <label for="dropdown">Current role:
+        <select id="dropdown">
+          <option>(select one)</option>
+          <option>Student</option>
+          <option>Full time job</option>
+        </select>
+      </label>
+      <label>Gender:
+        <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="male">Male
+      </label>
+      <label>Languages you know:
+        <input type="checkbox" name="check1" value="check1">Java
+        <input type="checkbox" name="check2" value="check2">Python
+      </label>
+      </fieldset><br>
+      <fieldset>
+      <label>More about you: 
+        <textarea rows=3 cols=30>I am a student/professional...</textarea>
+      </label>
+      </fieldset><br>
+      <fieldset class="last"><input id="submit" type="submit" value="Submit"></fieldset>
+    </form>
+    <p>Please click on submit button to save submit your details.</p><hr>
+    <footer>
+      <br>
+    In case of any query call on 2002345345/7896543452<br>
+    address: 123, xyz apartment, shop no.-12, Mumbai,400001
+    </footer>
+  </body>
+</html>
