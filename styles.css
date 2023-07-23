@@ -5,6 +5,7 @@ body{
     font-family: San-Serif;
     font-size: 20px;
     text-align: center;
+    width: 500px;
   }
   h1,p{
     text-align: center;
