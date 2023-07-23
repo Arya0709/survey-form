@@ -5,8 +5,8 @@ body{
     font-family: San-Serif;
     font-size: 20px;
     text-align: center;
-    width: 300px;
-    height: 500px;
+    resize: both;
+    overflow: auto;
   }
   h1,p{
     text-align: center;
