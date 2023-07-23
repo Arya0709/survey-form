@@ -22,6 +22,7 @@ body{
   fieldset{
     border-color: cyan;
     text-align: left;
+    width: 300px;
     margin: auto;
     padding: 30px;
   }
