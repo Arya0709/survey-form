@@ -40,7 +40,7 @@ body{
   
   }
   input[type="submit"]{
-    width: 400px;
+    text-align: center;
     color: white;
     background-color: rgb(0,0,127);
     border: 2px solid white;
